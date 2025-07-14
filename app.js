@@ -65,7 +65,7 @@ function refreshTeamOptions() {
       dept.teams.forEach(team => {
         const opt = document.createElement("option");
         opt.value = team.id;
-        opt.textContent = `${org.name} / ${dept.name} / ${team.name}`;
+        opt.textContent = ${org.name} / ${dept.name} / ${team.name};
         teamSelect.appendChild(opt);
       });
     });
